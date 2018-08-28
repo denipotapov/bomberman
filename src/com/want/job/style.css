@@ -1,0 +1,21 @@
+.site2d {
+    -fx-background-color: #d0cdff;
+    -fx-border-width: 0.15;
+    -fx-border-style: solid;
+}
+
+.site2d.open {
+    -fx-background-color: #ffffff;
+}
+
+.site2d.open.bomb {
+    -fx-background-color: rgba(255, 74, 76, 0.79);
+}
+
+.site2d:hover {
+    -fx-background-color: #ffe1e3;
+    -fx-border-width: 0.15;
+    -fx-border-style: solid;
+}
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import com.want.job.components.gridField.GridField?>
+<VBox xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.want.job.controllers.MainController">
+   <children>
+      <MenuBar prefHeight="29.0" prefWidth="175.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Game">
+            <items>
+                  <Menu mnemonicParsing="false" text="New">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#menuBeginnerClicked" text="Beginner" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuIntermediateClicked" text="Intermeditate" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuAdvancedClicked" text="Advanced" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuCustomClicked" text="Custom" />
+                    </items>
+                  </Menu>
+                  <MenuItem mnemonicParsing="false" onAction="#menuLoadClicked" text="Load" />
+                  <MenuItem mnemonicParsing="false" onAction="#menuSaveClicked" text="Save" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#menuCloseClicked" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#menuAboutClicked" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+       <GridField fx:id="field">
+       </GridField>
+   </children>
+
+</VBox>
