@@ -4,7 +4,7 @@ It has an extremely useful field to learn algorithms. Will be reused in future
 
 It has 2d field similar to matrix.
 
-[Filed](screenshot.png)
+[Field](screenshot.png)
 
 We can change field through menu
 
